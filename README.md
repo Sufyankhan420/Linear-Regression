@@ -1,18 +1,18 @@
 # Linear-Regression
-House Price Prediction Model
+# House Price Prediction Model
 This repository contains a linear regression model designed to predict house prices based on square footage, number of bedrooms, and number of bathrooms. The model is built using Python and various data science libraries.
 
-Project Overview
+# Project Overview
 In this project, we use a dataset of house prices to develop a predictive model. The aim is to use features such as square footage (GrLivArea), the number of bedrooms (BedroomAbvGr), and the number of bathrooms (FullBath) to accurately estimate the price of a house. The project utilizes a linear regression algorithm for its simplicity and effectiveness in continuous value prediction tasks.
 
-Features
+# Features
 Square Footage (GrLivArea): The total living area of the house in square feet.
 Number of Bedrooms (BedroomAbvGr): The number of bedrooms in the house.
 Number of Bathrooms (FullBath): The number of bathrooms in the house.
 Model Evaluation
 The model's performance is evaluated using the Root Mean Squared Error (RMSE), which provides a measure of how closely the model's predictions align with actual values.
 
-Requirements
+# Requirements
 To run this project, you need the following libraries:
 
 pandas
@@ -22,8 +22,6 @@ matplotlib
 Getting Started
 Clone the Repository
 
-bash
-Copy code
 git clone https://github.com/yourusername/house-price-prediction.git
 Install Dependencies
 Install the required libraries using pip:
@@ -38,7 +36,7 @@ Execute the script to train the model and view the results:
 
 
 python house_price_prediction.py
-Usage
+# Usage
 The script:
 
 Loads the dataset and explores it for missing values and data types.
